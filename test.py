@@ -77,7 +77,7 @@ def path(self, value):
         mesh.a()
     if keyboard.is_pressed("d"):
         mesh.d()
-    if keyboard.is_pressed("ctrl"):
+    if keyboard.is_pressed("enter"):
             bpy.app.handlers.frame_change_pre.clear()
             print("end")
 
