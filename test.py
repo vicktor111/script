@@ -79,6 +79,6 @@ def path(self, value):
         mesh.d()
     if keyboard.is_pressed("ctrl"):
             bpy.app.handlers.frame_change_pre.clear()
-            bpy.ops.screen.animation_step()
+            print("end")
 
 bpy.app.handlers.frame_change_pre.append(path)
